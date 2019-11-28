@@ -1,13 +1,13 @@
-platform :ios, '9.3'
+platform :ios, '11.0'
 
 target 'SecurityExtensions' do
   use_frameworks!
 
-  pod 'IDZSwiftCommonCrypto', '~> 0.9'
+  pod 'IDZSwiftCommonCrypto'
 
   target 'SecurityExtensionsTests' do
-    pod 'Quick', '~> 1.0'
-    pod 'Nimble', '~> 6.0'
+    pod 'Quick'
+    pod 'Nimble'
   end
 
 end
